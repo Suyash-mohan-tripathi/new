@@ -84,3 +84,4 @@ All original Pixelnest HTML/CSS/JS and custom artwork included here can be modif
 
 ## Updated payment-flow UX
 Four monthly-care-page website package cards now include `Pay now` above `Discuss this plan`. The payments page is redesigned as a simple "Pick a plan that fits" redirect plus an interactive four-package checkout selector that can be changed at any time before starting payment. `assets/payment-flow.css` and `assets/payment-picker.js` are required. Do not remove these when uploading to GitHub.
+Pixelnest website updated with Razorpay payments.
