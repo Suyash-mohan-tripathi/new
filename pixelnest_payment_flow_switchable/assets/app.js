@@ -1,0 +1,7 @@
+(()=>{
+const toggle=document.querySelector('#menuToggle'),nav=document.querySelector('#mobileNav');
+if(toggle&&nav){const close=()=>{nav.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open menu');toggle.textContent='☰'};toggle.addEventListener('click',()=>{const open=nav.hidden;nav.hidden=!open;toggle.textContent=open?'×':'☰';toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close menu':'Open menu')});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});document.addEventListener('click',e=>{if(!nav.hidden&&!nav.contains(e.target)&&!toggle.contains(e.target))close()});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',close))}
+document.querySelectorAll('[data-year]').forEach(e=>e.textContent=new Date().getFullYear());
+const rail=document.querySelector('#benefitRail');document.querySelectorAll('[data-rail]').forEach(btn=>btn.addEventListener('click',()=>{if(!rail)return;const card=rail.querySelector('.benefit-card');rail.scrollBy({left:(btn.dataset.rail==='next'?1:-1)*(card?card.getBoundingClientRect().width+20:240),behavior:'smooth'})}));
+const photo=document.querySelector('#vibhogPhoto');if(photo){document.querySelectorAll('[data-vibhog-image]').forEach(btn=>btn.addEventListener('click',()=>{photo.src=btn.dataset.vibhogImage;document.querySelectorAll('[data-vibhog-image]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)))}))}
+})();
