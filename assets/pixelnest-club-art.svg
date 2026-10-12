@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="740" viewBox="0 0 980 740" role="img" aria-labelledby="title desc">
+<title id="title">Pixelnest Care Club illustration</title><desc id="desc">Overlapping original colourful website cards, playful shapes, smiling icons, and a bright coral and blue gradient.</desc>
+<defs>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffdb2e"/><stop offset=".42" stop-color="#ff7a20"/><stop offset="1" stop-color="#ff276f"/></linearGradient>
+  <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5226ff"/><stop offset=".55" stop-color="#184cf4"/><stop offset="1" stop-color="#27d7f1"/></linearGradient>
+  <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff3d95"/><stop offset="1" stop-color="#ff8818"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-40%" width="160%" height="190%"><feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#270d40" flood-opacity=".26"/></filter>
+</defs>
+<g filter="url(#shadow)" transform="translate(198 82) rotate(10 300 250)">
+  <rect x="35" y="0" width="650" height="490" rx="34" fill="url(#g2)"/>
+  <path d="M53 280C242 150 366 295 667 165L667 470 53 470Z" fill="#b6dbff" opacity=".25"/>
+  <circle cx="562" cy="110" r="84" fill="#75f5dc"/>
+  <path d="M525 109h3m62 0h3" stroke="#06162d" stroke-width="12" stroke-linecap="round"/>
+  <path d="M537 137Q562 167 589 133" stroke="#06162d" stroke-width="11" stroke-linecap="round" fill="none"/>
+  <rect x="88" y="48" width="300" height="28" rx="14" fill="#fff" opacity=".95"/>
+  <rect x="88" y="95" width="195" height="12" rx="6" fill="#fff" opacity=".6"/>
+  <rect x="88" y="119" width="230" height="12" rx="6" fill="#fff" opacity=".35"/>
+  <rect x="90" y="315" width="270" height="105" rx="22" fill="#fff" opacity=".94"/>
+  <rect x="116" y="345" width="138" height="14" rx="7" fill="#3d35cd" opacity=".35"/>
+  <rect x="116" y="369" width="98" height="12" rx="6" fill="#3d35cd" opacity=".19"/>
+  <circle cx="307" cy="367" r="26" fill="#ffb400"/>
+</g>
+<g filter="url(#shadow)" transform="translate(70 220) rotate(-16 255 203)">
+  <rect width="520" height="390" rx="31" fill="url(#g1)"/>
+  <circle cx="143" cy="126" r="97" fill="#f11f86"/>
+  <circle cx="349" cy="128" r="88" fill="#ffdf3d"/>
+  <circle cx="264" cy="304" r="91" fill="#183dff"/>
+  <g fill="#091924">
+   <rect x="110" y="103" width="12" height="24" rx="6" transform="rotate(-12 110 103)"/>
+   <rect x="159" y="103" width="12" height="24" rx="6" transform="rotate(12 159 103)"/>
+   <rect x="318" y="104" width="12" height="24" rx="6" transform="rotate(-12 318 104)"/>
+   <rect x="366" y="104" width="12" height="24" rx="6" transform="rotate(12 366 104)"/>
+   <rect x="237" y="281" width="12" height="24" rx="6" transform="rotate(-12 237 281)"/>
+   <rect x="285" y="281" width="12" height="24" rx="6" transform="rotate(12 285 281)"/>
+  </g>
+  <g fill="none" stroke="#091924" stroke-width="10" stroke-linecap="round"><path d="M110 157Q142 186 174 150"/><path d="M317 150Q348 185 381 147"/><path d="M234 321Q263 353 293 316"/></g>
+  <text x="34" y="362" font-family="Arial, sans-serif" font-size="16" fill="#fff" font-weight="700" letter-spacing="2">PIXELNEST / CARE CLUB</text>
+</g>
+<g transform="translate(673 447) rotate(18)"><circle cx="0" cy="0" r="85" fill="#f8fffb" stroke="#21182e" stroke-width="11"/><path d="M-30 -18h3m57 0h3" stroke="#21182e" stroke-width="11" stroke-linecap="round"/><path d="M-34 11Q0 50 34 11" fill="none" stroke="#21182e" stroke-width="10" stroke-linecap="round"/></g>
+<g fill="#ffd71c"><path d="M790 82l15 35 35 15-35 15-15 35-15-35-35-15 35-15z"/><circle cx="90" cy="160" r="15"/></g>
+</svg>
